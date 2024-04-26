@@ -1,0 +1,304 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(./pina-messina-Sw2XNTgA-wc-unsplash.jpg); */
+    background-image: linear-gradient(to right, rgb(68, 61, 61, 0.5), rgba(49, 77, 153, 0.5)), url(./pina-messina-Sw2XNTgA-wc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: rgb(87, 87, 86);
+    background: linear-gradient(to right, rgb(104, 104, 46), rgba(49, 77, 153));
+    height: 55px;
+    width: 100%;
+    display: flex;
+}
+
+#Logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#Right {
+    display: flex;
+    align-items: center;
+    padding-left: 80%;
+}
+
+
+/* Picture below Nav */
+
+.newsfeed {
+    justify-items: center;
+    display: flex;
+}
+
+.newsfeed img {
+    margin: 3px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.newsfeed a img {
+    width: 98%;
+}
+
+
+/* Services */
+
+.ervices p {
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.cmb {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.cmb a {
+    text-decoration: none;
+    color: black;
+}
+
+.Services {
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(to right, white, gray);
+    /* background-color: rgb(170, 164, 164); */
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+    /* background: linear-gradient(to top, rgb(87, 87, 110), rgb(233, 155, 10));*/
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.head {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.info {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.RM {
+    margin: auto;
+    display: flex;
+    border-color: navy;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: 0.6s ease-in;
+    /* background-color: rgb(1, 146, 1, 0.5); */
+}
+
+.RM:hover {
+    color: white;
+    background-color: darkblue;
+    border: 2px solid white;
+}
+
+
+/* Sections */
+
+.mlower {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 10px;
+    background: linear-gradient(to right, rgb(104, 104, 46), rgba(49, 77, 153));
+    color: white;
+    height: 250px;
+}
+
+.lower {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.lower a {
+    display: block;
+}
+
+.lower-in {
+    margin: 20px 100px 0px 0px;
+}
+
+.lower-in a {
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.lower-in p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bottom {
+    color: white;
+    display: flex;
+    background-color: black;
+    padding: 5px;
+}
+
+.b1 {
+    margin-left: auto;
+}
+
+
+/* Money transfer */
+
+.MTinfo {
+    display: flex;
+    margin: 20px 20% 20px 20%;
+}
+
+.MTinfo1 {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    margin-right: 10px;
+    width: 600px;
+    padding: 20px;
+}
+
+.bene {
+    padding-left: 30px;
+}
+
+.MTinfo2 {
+    background-color: rgb(87, 78, 78);
+    color: white;
+    margin-right: 10px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
+.opca {
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.MTinfo2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.apn {
+    font-weight: 600;
+    background-color: orangered;
+    padding: 5px;
+}
+
+
+/* Current account */
+
+.caform {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 480px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caform input {
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: rgb(110, 109, 109);
+    width: 200px;
+    height: 40px;
+    margin: 3px 5px 15px 5px;
+}
+
+#longin {
+    width: 415px;
+}
+
+.caform button {
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: white;
+    width: auto;
+    margin: auto;
+    transition: all 1s ease-in-out;
+}
+
+.caform button:hover {
+    background-color: white;
+    border-color: orangered;
+    color: orangered;
+}
+
+.caform label {
+    display: block;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.genage {
+    display: flex;
+    text-align: center;
+}
+
+.genage label {
+    padding-top: 13px;
+}
+
+.genage input {
+    width: auto;
+    margin-left: 10px;
+}
+
+#agein {
+    width: 40px;
+    height: 30px;
+}
+
+#accty {
+    margin: 10px 0px 10px 5px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
